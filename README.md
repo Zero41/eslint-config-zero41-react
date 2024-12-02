@@ -7,17 +7,12 @@
   yarn add eslint --dev
   ```
   
-2. Install `eslint-config-zero41`:
+2. Install `eslint-config-zero41-react`:
   ```sh
-  yarn add https://github.com/Zero41/eslint-config-zero41.git --dev
-  ```
-  
-3. Install `eslint-config-zero41-react`:
-  ```sh
-  yarn add https://github.com/Zero41/eslint-config-zero41-react.git --dev
+  yarn add esling-config-zero41@https://github.com/Zero41/eslint-config-zero41-react.git --dev
    ```
 
-4. Add `eslint-config-zero41-react` to your ESLint `.eslintrc.js` config:
+3. Add `eslint-config-zero41-react` to your ESLint `.eslintrc.js` config:
   ```javascript
   module.exports = {
     extends: ["eslint-config-zero41-react"],
@@ -28,7 +23,7 @@
   };
   ```
 
-5. If you are using absolute imports, use paths to define the root:
+4. If you are using absolute imports, use paths to define the root:
   ```diff
   module.exports = {
     extends: ["eslint-config-zero41-react"],
@@ -46,7 +41,7 @@
   };
   ```
   
-6. If you have files types other than `*.js`, `*.jsx`, `*.ts` or `*.tsx` add them:
+5. If you have files types other than `*.js`, `*.jsx`, `*.ts` or `*.tsx` add them:
   ```diff
   module.exports = {
     extends: ["eslint-config-zero41-react"],
